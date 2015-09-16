@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CB39CC3E6D4F482D25F5786 /* libCIMLuaBindingAppKit.dylib in Copy CIMLua Frameworks */ = {isa = PBXBuildFile; fileRef = C76297054B46E6393D580AB2 /* libCIMLuaBindingAppKit.dylib */; };
+		32112334E264B19C5114973A /* CIMLuaDebugServerOSX.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B7327B71BBFD796C21B698 /* CIMLuaDebugServerOSX.dylib */; };
+		4D741784F6630C8BD9689786 /* libCIMLuaBindingCoreGraphics.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BA56D28D8AF7868BDBC7BA00 /* libCIMLuaBindingCoreGraphics.dylib */; };
+		66EB30C78119CD3EEC162FA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFDCB611015282EF771E9C0 /* CoreGraphics.framework */; };
+		70136C71AB10EDAC5C4882F8 /* libCIMLuaBindingCoreGraphics.dylib in Copy CIMLua Frameworks */ = {isa = PBXBuildFile; fileRef = BA56D28D8AF7868BDBC7BA00 /* libCIMLuaBindingCoreGraphics.dylib */; };
+		92A4F52EB9433F2E2CCBA5BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0F0F613671193933C8E17B /* Foundation.framework */; };
+		9782E145C6E963A2FD3899DF /* libCIMLuaBindingAppKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C76297054B46E6393D580AB2 /* libCIMLuaBindingAppKit.dylib */; };
+		BB6E92CADAEBD9A7DDD0E32C /* CIMLuaX.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D517444C9280CAF56ABBF9 /* CIMLuaX.dylib */; };
+		CCA46B419C90B609AB6AF2AF /* libCIMLuaBindingFoundation.dylib in Copy CIMLua Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7A60D17FBBF9DE6BB17541 /* libCIMLuaBindingFoundation.dylib */; };
+		E8A1932A1D3324FD82EDAD22 /* libCIMLuaBindingFoundation.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7A60D17FBBF9DE6BB17541 /* libCIMLuaBindingFoundation.dylib */; };
+		E9052FC8D7419D3A50CD1EB8 /* CIMLuaX.dylib in Copy CIMLua Frameworks */ = {isa = PBXBuildFile; fileRef = 97D517444C9280CAF56ABBF9 /* CIMLuaX.dylib */; };
+		EE0B2FA57BAF4114FFE3097A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AC9FC04967C42E43FBD59B /* AppKit.framework */; };
+		FD9F5750C810B1AAE1C479FD /* CIMLuaDebugServerOSX.dylib in Copy CIMLua Frameworks */ = {isa = PBXBuildFile; fileRef = E6B7327B71BBFD796C21B698 /* CIMLuaDebugServerOSX.dylib */; };
+		FDF70CD41B36BF61004FF7CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF70CD31B36BF61004FF7CA /* AppDelegate.m */; };
+		FDF70CD61B36BF61004FF7CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF70CD51B36BF61004FF7CA /* main.m */; };
+		FDF70CD91B36BF61004FF7CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF70CD81B36BF61004FF7CA /* ViewController.m */; };
+		FDF70CDB1B36BF61004FF7CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF70CDA1B36BF61004FF7CA /* Images.xcassets */; };
+		FDF70CDE1B36BF61004FF7CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF70CDC1B36BF61004FF7CA /* Main.storyboard */; };
+		FDF70CEA1B36BF61004FF7CA /* CircularTextMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF70CE91B36BF61004FF7CA /* CircularTextMacTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDF70CE41B36BF61004FF7CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF70CC51B36BF61004FF7CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF70CCC1B36BF61004FF7CA;
+			remoteInfo = HelloWorldMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ACA5AEA3BA4A760A80AC7A71 /* Copy CIMLua Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E9052FC8D7419D3A50CD1EB8 /* CIMLuaX.dylib in Copy CIMLua Frameworks */,
+				FD9F5750C810B1AAE1C479FD /* CIMLuaDebugServerOSX.dylib in Copy CIMLua Frameworks */,
+				1CB39CC3E6D4F482D25F5786 /* libCIMLuaBindingAppKit.dylib in Copy CIMLua Frameworks */,
+				CCA46B419C90B609AB6AF2AF /* libCIMLuaBindingFoundation.dylib in Copy CIMLua Frameworks */,
+				70136C71AB10EDAC5C4882F8 /* libCIMLuaBindingCoreGraphics.dylib in Copy CIMLua Frameworks */,
+			);
+			name = "Copy CIMLua Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		37AC9FC04967C42E43FBD59B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4F0F0F613671193933C8E17B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A7A60D17FBBF9DE6BB17541 /* libCIMLuaBindingFoundation.dylib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; name = libCIMLuaBindingFoundation.dylib; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/macosx/OSX-SDK-10.11SDK.luabindings/BindingLibs/libCIMLuaBindingFoundation.dylib"; sourceTree = "<absolute>"; };
+		97D517444C9280CAF56ABBF9 /* CIMLuaX.dylib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; name = CIMLuaX.dylib; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/macosx/CIMLuaX.dylib"; sourceTree = "<absolute>"; };
+		BA56D28D8AF7868BDBC7BA00 /* libCIMLuaBindingCoreGraphics.dylib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; name = libCIMLuaBindingCoreGraphics.dylib; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/macosx/OSX-SDK-10.11SDK.luabindings/BindingLibs/libCIMLuaBindingCoreGraphics.dylib"; sourceTree = "<absolute>"; };
+		C76297054B46E6393D580AB2 /* libCIMLuaBindingAppKit.dylib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; name = libCIMLuaBindingAppKit.dylib; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/macosx/OSX-SDK-10.11SDK.luabindings/BindingLibs/libCIMLuaBindingAppKit.dylib"; sourceTree = "<absolute>"; };
+		CAFDCB611015282EF771E9C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6B7327B71BBFD796C21B698 /* CIMLuaDebugServerOSX.dylib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "compiled.mach-o.dylib"; name = CIMLuaDebugServerOSX.dylib; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/macosx/CIMLuaDebugServerOSX.dylib"; sourceTree = "<absolute>"; };
+		FDF70CCD1B36BF61004FF7CA /* CircularTextMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularTextMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF70CD11B36BF61004FF7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF70CD21B36BF61004FF7CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDF70CD31B36BF61004FF7CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDF70CD51B36BF61004FF7CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDF70CD71B36BF61004FF7CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDF70CD81B36BF61004FF7CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDF70CDA1B36BF61004FF7CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDF70CDD1B36BF61004FF7CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDF70CE31B36BF61004FF7CA /* CircularTextMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularTextMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF70CE81B36BF61004FF7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF70CE91B36BF61004FF7CA /* CircularTextMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularTextMacTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF70CCA1B36BF61004FF7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6E92CADAEBD9A7DDD0E32C /* CIMLuaX.dylib in Frameworks */,
+				32112334E264B19C5114973A /* CIMLuaDebugServerOSX.dylib in Frameworks */,
+				92A4F52EB9433F2E2CCBA5BC /* Foundation.framework in Frameworks */,
+				EE0B2FA57BAF4114FFE3097A /* AppKit.framework in Frameworks */,
+				66EB30C78119CD3EEC162FA0 /* CoreGraphics.framework in Frameworks */,
+				9782E145C6E963A2FD3899DF /* libCIMLuaBindingAppKit.dylib in Frameworks */,
+				E8A1932A1D3324FD82EDAD22 /* libCIMLuaBindingFoundation.dylib in Frameworks */,
+				4D741784F6630C8BD9689786 /* libCIMLuaBindingCoreGraphics.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF70CE01B36BF61004FF7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1091AA45C2FFE0CE50022D9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97D517444C9280CAF56ABBF9 /* CIMLuaX.dylib */,
+				E6B7327B71BBFD796C21B698 /* CIMLuaDebugServerOSX.dylib */,
+				4F0F0F613671193933C8E17B /* Foundation.framework */,
+				37AC9FC04967C42E43FBD59B /* AppKit.framework */,
+				CAFDCB611015282EF771E9C0 /* CoreGraphics.framework */,
+				C76297054B46E6393D580AB2 /* libCIMLuaBindingAppKit.dylib */,
+				8A7A60D17FBBF9DE6BB17541 /* libCIMLuaBindingFoundation.dylib */,
+				BA56D28D8AF7868BDBC7BA00 /* libCIMLuaBindingCoreGraphics.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDF70CC41B36BF61004FF7CA = {
+			isa = PBXGroup;
+			children = (
+				FDF70CCF1B36BF61004FF7CA /* CircularTextMac */,
+				FDF70CE61B36BF61004FF7CA /* CircularTextMacTests */,
+				FDF70CCE1B36BF61004FF7CA /* Products */,
+				1091AA45C2FFE0CE50022D9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF70CCE1B36BF61004FF7CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF70CCD1B36BF61004FF7CA /* CircularTextMac.app */,
+				FDF70CE31B36BF61004FF7CA /* CircularTextMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF70CCF1B36BF61004FF7CA /* CircularTextMac */ = {
+			isa = PBXGroup;
+			children = (
+				FDF70CD21B36BF61004FF7CA /* AppDelegate.h */,
+				FDF70CD31B36BF61004FF7CA /* AppDelegate.m */,
+				FDF70CD71B36BF61004FF7CA /* ViewController.h */,
+				FDF70CD81B36BF61004FF7CA /* ViewController.m */,
+				FDF70CDA1B36BF61004FF7CA /* Images.xcassets */,
+				FDF70CDC1B36BF61004FF7CA /* Main.storyboard */,
+				FDF70CD01B36BF61004FF7CA /* Supporting Files */,
+			);
+			path = CircularTextMac;
+			sourceTree = "<group>";
+		};
+		FDF70CD01B36BF61004FF7CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF70CD11B36BF61004FF7CA /* Info.plist */,
+				FDF70CD51B36BF61004FF7CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDF70CE61B36BF61004FF7CA /* CircularTextMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF70CE91B36BF61004FF7CA /* CircularTextMacTests.m */,
+				FDF70CE71B36BF61004FF7CA /* Supporting Files */,
+			);
+			path = CircularTextMacTests;
+			sourceTree = "<group>";
+		};
+		FDF70CE71B36BF61004FF7CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF70CE81B36BF61004FF7CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF70CCC1B36BF61004FF7CA /* CircularTextMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF70CED1B36BF61004FF7CA /* Build configuration list for PBXNativeTarget "CircularTextMac" */;
+			buildPhases = (
+				FDF70CC91B36BF61004FF7CA /* Sources */,
+				FDF70CCA1B36BF61004FF7CA /* Frameworks */,
+				FDF70CCB1B36BF61004FF7CA /* Resources */,
+				ACA5AEA3BA4A760A80AC7A71 /* Copy CIMLua Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularTextMac;
+			productName = HelloWorldMac;
+			productReference = FDF70CCD1B36BF61004FF7CA /* CircularTextMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDF70CE21B36BF61004FF7CA /* CircularTextMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF70CF01B36BF61004FF7CA /* Build configuration list for PBXNativeTarget "CircularTextMacTests" */;
+			buildPhases = (
+				FDF70CDF1B36BF61004FF7CA /* Sources */,
+				FDF70CE01B36BF61004FF7CA /* Frameworks */,
+				FDF70CE11B36BF61004FF7CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF70CE51B36BF61004FF7CA /* PBXTargetDependency */,
+			);
+			name = CircularTextMacTests;
+			productName = HelloWorldMacTests;
+			productReference = FDF70CE31B36BF61004FF7CA /* CircularTextMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF70CC51B36BF61004FF7CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Lua Live Inc.";
+				TargetAttributes = {
+					FDF70CCC1B36BF61004FF7CA = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					FDF70CE21B36BF61004FF7CA = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FDF70CCC1B36BF61004FF7CA;
+					};
+				};
+			};
+			buildConfigurationList = FDF70CC81B36BF61004FF7CA /* Build configuration list for PBXProject "CircularTextMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF70CC41B36BF61004FF7CA;
+			productRefGroup = FDF70CCE1B36BF61004FF7CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF70CCC1B36BF61004FF7CA /* CircularTextMac */,
+				FDF70CE21B36BF61004FF7CA /* CircularTextMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF70CCB1B36BF61004FF7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF70CDB1B36BF61004FF7CA /* Images.xcassets in Resources */,
+				FDF70CDE1B36BF61004FF7CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF70CE11B36BF61004FF7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF70CC91B36BF61004FF7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF70CD91B36BF61004FF7CA /* ViewController.m in Sources */,
+				FDF70CD61B36BF61004FF7CA /* main.m in Sources */,
+				FDF70CD41B36BF61004FF7CA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF70CDF1B36BF61004FF7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF70CEA1B36BF61004FF7CA /* CircularTextMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDF70CE51B36BF61004FF7CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF70CCC1B36BF61004FF7CA /* CircularTextMac */;
+			targetProxy = FDF70CE41B36BF61004FF7CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDF70CDC1B36BF61004FF7CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF70CDD1B36BF61004FF7CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF70CEB1B36BF61004FF7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FDF70CEC1B36BF61004FF7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FDF70CEE1B36BF61004FF7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/headers";
+				INFOPLIST_FILE = CircularTextMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/macosx",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/macosx/OSX-SDK-10.11SDK.luabindings/BindingLibs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDF70CEF1B36BF61004FF7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/headers";
+				INFOPLIST_FILE = CircularTextMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/macosx",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/macosx/OSX-SDK-10.11SDK.luabindings/BindingLibs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDF70CF11B36BF61004FF7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CircularTextMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularTextMac.app/Contents/MacOS/CircularTextMac";
+			};
+			name = Debug;
+		};
+		FDF70CF21B36BF61004FF7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CircularTextMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularTextMac.app/Contents/MacOS/CircularTextMac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF70CC81B36BF61004FF7CA /* Build configuration list for PBXProject "CircularTextMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF70CEB1B36BF61004FF7CA /* Debug */,
+				FDF70CEC1B36BF61004FF7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF70CED1B36BF61004FF7CA /* Build configuration list for PBXNativeTarget "CircularTextMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF70CEE1B36BF61004FF7CA /* Debug */,
+				FDF70CEF1B36BF61004FF7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF70CF01B36BF61004FF7CA /* Build configuration list for PBXNativeTarget "CircularTextMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF70CF11B36BF61004FF7CA /* Debug */,
+				FDF70CF21B36BF61004FF7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF70CC51B36BF61004FF7CA /* Project object */;
+}

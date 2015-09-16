@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classes</key>
+	<dict>
+		<key>AppDelegate</key>
+		<dict>
+			<key>defined</key>
+			<string>AppDelegate</string>
+			<key>name</key>
+			<string>AppDelegate</string>
+			<key>protocols</key>
+			<array>
+				<string>NSApplicationDelegate</string>
+			</array>
+			<key>superclass</key>
+			<string>NSObject</string>
+		</dict>
+		<key>ViewController</key>
+		<dict>
+			<key>defined</key>
+			<string>ViewController</string>
+			<key>name</key>
+			<string>ViewController</string>
+			<key>superclass</key>
+			<string>NSViewController</string>
+		</dict>
+	</dict>
+	<key>id</key>
+	<string>CircularTextMac</string>
+	<key>indexFormat</key>
+	<string>0.3</string>
+	<key>protocols</key>
+	<dict/>
+	<key>structs</key>
+	<dict/>
+	<key>version</key>
+	<string>1</string>
+</dict>
+</plist>
