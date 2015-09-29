@@ -6,13 +6,16 @@ local codeUpdatedMessage = "ViewController code updated "
 local ViewController = class.extendClass(objc.ViewController)
 
 function ViewController:viewDidLoad ()
-    
     self[ViewController.superclass]:viewDidLoad()
-    
-    -- Re-configure the controller's view when the code is updated
-    self:addMessageHandler(codeUpdatedMessage, 'configureView')
-    
-    self:configureView()
+    self:promoteAsLuaObject()
+end
+
+function ViewController:promoteAsLuaObject()
+   if self.isViewLoaded then
+       self:configureView()
+       -- Re-configure the controller's view when the code is updated
+       self:addMessageHandler(codeUpdatedMessage, 'configureView')
+   end
 end
 
 local NSLayoutConstraint = objc.NSLayoutConstraint

@@ -10,13 +10,14 @@ CircularTextMac is fully compliant with live-code and live-resource update, and 
 
 Interesting aspects of this sample app include:
 
-- This app uses a a standard Xcode storyboard-base Mac template, that has almost been left untouched, apart from the creation of a Lua Context and the launch of the `ViewController` Lua module. You will notice that the code for creating this Lua Context is located in AppDelegate's method `awakeFromNib`; this is because the Lua class extension of class `ViewController` shall be initialized before the View Controller's `viewDidLoad` method is called, and OS X calls this method very early during the application launch!
-- The View Controller creates a `TextView` and uses auto-layout to configure the position and size of this view. You can change the layout constraints in real-time and see the result.
+- This app uses a a standard Xcode storyboard-base Mac template, that has almost been left untouched, apart from the creation of a Lua Context and the loading of the `ViewController` Lua module asynchronously in the application delegate. 
+- The ViewController Objective-C instance is created from the storyboard very early during the application launch, when the corresponding Lua class extension is not loaded yet. Therefore, to initialize its Lua aspects, a ViewController simply observes the `kCIMLuaModuleLoadedNotification`an calls `promoteAsLuaObject` when it receives the notification for the right Lua module.
+- In Lua, the View Controller creates a `TextView` and uses auto-layout to configure the position and size of this view. You can change the layout constraints in real-time and see the result.
 - The text-on-a-circle drawing takes place in  method `TextView:drawRect()`, where every individual glyph is translated and rotated to its final position. You can use it as a basis for placing the text on a different curve: this is a geometry-intensive task but the direct feedback in the target application helps a lot during the experimentations! :)
 
 ## Configuration required
 
-A Mac running OS X 10.10 or later, with Celedev CodeFlow 0.9.18 or later.  
+A Mac running OS X 10.10 or later, with Celedev CodeFlow 0.9.19 or later.  
 You can download CodeFlow from <https://www.celedev.com/en/support/#downloads> (registration required).
 
 ## How to use this code sample
@@ -38,7 +39,7 @@ You can download CodeFlow from <https://www.celedev.com/en/support/#downloads> (
 
 This application is provided under the MIT License (MIT)
 
-Copyright (c) 2014-2015 Celedev.
+Copyright (c) 2015 Celedev.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

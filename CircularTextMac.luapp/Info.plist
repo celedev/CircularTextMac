@@ -25,45 +25,44 @@
 				<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/headers</string>
 			</array>
 			<key>CustomBindingsLibLastGenerationDate</key>
-			<date>2015-09-16T15:53:47Z</date>
+			<date>2015-09-29T10:26:34Z</date>
 			<key>CustomBindingsLibPlatformSdkName</key>
 			<string>macosx10.11</string>
 			<key>CustomBindingsLibSourceFilesTree</key>
 			<data>
-			YnBsaXN0MDDUAQIDBAUGe3xYJHZlcnNpb25YJG9iamVjdHNZJGFy
-			Y2hpdmVyVCR0b3ASAAGGoK8QIQcIERIXHB0iJyguLzVCQ0RFRkdI
-			SU1SV1hcXWlqa25yd1UkbnVsbNQJCgsMDQ4PEFZvYmplY3RUbmFt
-			ZVphdHRyaWJ1dGVzViRjbGFzc4ADgAKAIIAfUNITDBQWWk5TLm9i
-			amVjdHOhFYAEgB3UCQoLDBgZGhCABoAFgB6AH18QD0NpcmN1bGFy
-			VGV4dE1hY9ITDB4Woh8ggAeAFoAd1AkKCwwjJCUmgAmACIAMgBVd
-			QXBwRGVsZWdhdGUuaNMpDCorLC1XTlMuYmFzZVtOUy5yZWxhdGl2
-			ZYAAgAuACl8Qd2ZpbGU6Ly8vVm9sdW1lcy9CcnVtZS9DZWxlZGV2
-			JTIwQ29kZUZsb3cvQ29kZUZsb3clMjBTYW1wbGUlMjBBcHBsaWNh
-			dGlvbnMvQ2lyY3VsYXJUZXh0TWFjL0NpcmN1bGFyVGV4dE1hYy9B
-			cHBEZWxlZ2F0ZS5o0jAxMjNaJGNsYXNzbmFtZVgkY2xhc3Nlc1VO
-			U1VSTKIyNFhOU09iamVjdNM2Eww3PEFXTlMua2V5c6Q4OTo7gA2A
-			DoAPgBCkPT4+QIARgBKAEoATgBRfEBJnZW5lcmF0aW9uRmlsZURh
-			dGVfEBRnZW5lcmF0aW9uRGlkU3VjY2VlZFhzZWxlY3RlZF8QF2dl
-			bmVyYXRpb25MdWFNb2R1a2VQYXRoI0G7psC/AAAACVtBcHBEZWxl
-			Z2F0ZdIwMUpLXxATTlNNdXRhYmxlRGljdGlvbmFyeaNKTDRcTlNE
-			aWN0aW9uYXJ50jAxTk9cQ0RGTE5hbWVkVXJso1BRNFxDREZMTmFt
-			ZWRVcmxdQ0RGTE5hbWVkSXRlbdQJCgsMU1RVJoAYgBeAGoAVXxAQ
-			Vmlld0NvbnRyb2xsZXIuaNMpDCorLFuAAIALgBlfEHpmaWxlOi8v
-			L1ZvbHVtZXMvQnJ1bWUvQ2VsZWRldiUyMENvZGVGbG93L0NvZGVG
-			bG93JTIwU2FtcGxlJTIwQXBwbGljYXRpb25zL0NpcmN1bGFyVGV4
-			dE1hYy9DaXJjdWxhclRleHRNYWMvVmlld0NvbnRyb2xsZXIuaNM2
-			EwxeY0GkODk6O4ANgA6AD4AQpGQ+PmeAG4ASgBKAHIAUI0G7psC/
-			AAAAXlZpZXdDb250cm9sbGVy0jAxbG1XTlNBcnJheaJsNNM2Ewxv
-			cEGgoIAU0jAxc3ReQ0RGTE5hbWVkR3JvdXCjdXY0XkNERkxOYW1l
-			ZEdyb3VwXUNERkxOYW1lZEl0ZW3TNhMMeHlBoKCAFF8QD05TS2V5
-			ZWRBcmNoaXZlctF9flRyb290gAEACAARABoAIwAtADIANwBbAGEA
-			agBxAHYAgQCIAIoAjACOAJAAkQCWAKEAowClAKcAsACyALQAtgC4
-			AMoAzwDSANQA1gDYAOEA4wDlAOcA6QD3AP4BBgESARQBFgEYAZIB
-			lwGiAasBsQG0Ab0BxAHMAdEB0wHVAdcB2QHeAeAB4gHkAeYB6AH9
-			AhQCHQI3AkACQQJNAlICaAJsAnkCfgKLAo8CnAKqArMCtQK3ArkC
-			uwLOAtUC1wLZAtsDWANfA2QDZgNoA2oDbANxA3MDdQN3A3kDewOE
-			A5MDmAOgA6MDqgOrA6wDrgOzA8IDxgPVA+MD6gPrA+wD7gQABAME
-			CAAAAAAAAAIBAAAAAAAAAH8AAAAAAAAAAAAAAAAAAAQK
+			YnBsaXN0MDDUAQIDBAUGdHVYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK8QIAcIERIXHB0iJyguLzU8PT5CR0xN
+			UVJeX2BhYmNkZ2twVSRudWxs1AkKCwwNDg8QVm9iamVjdFRuYW1l
+			WmF0dHJpYnV0ZXNWJGNsYXNzgAOAAoAfgB5Q0hMMFBZaTlMub2Jq
+			ZWN0c6EVgASAHNQJCgsMGBkaEIAGgAWAHYAeXxAPQ2lyY3VsYXJU
+			ZXh0TWFj0hMMHhaiHyCAB4ARgBzUCQoLDCMkJSaACYAIgAyAEF1B
+			cHBEZWxlZ2F0ZS5o0ykMKissLVdOUy5iYXNlW05TLnJlbGF0aXZl
+			gACAC4AKXxB3ZmlsZTovLy9Wb2x1bWVzL0JydW1lL0NlbGVkZXYl
+			MjBDb2RlRmxvdy9Db2RlRmxvdyUyMFNhbXBsZSUyMEFwcGxpY2F0
+			aW9ucy9DaXJjdWxhclRleHRNYWMvQ2lyY3VsYXJUZXh0TWFjL0Fw
+			cERlbGVnYXRlLmjSMDEyM1okY2xhc3NuYW1lWCRjbGFzc2VzVU5T
+			VVJMojI0WE5TT2JqZWN00zYTDDc5O1dOUy5rZXlzoTiADaE6gA6A
+			D1hzZWxlY3RlZAjSMDE/QF8QE05TTXV0YWJsZURpY3Rpb25hcnmj
+			P0E0XE5TRGljdGlvbmFyedIwMUNEXENERkxOYW1lZFVybKNFRjRc
+			Q0RGTE5hbWVkVXJsXUNERkxOYW1lZEl0ZW3UCQoLDEhJSiaAE4AS
+			gBWAEF8QEFZpZXdDb250cm9sbGVyLmjTKQwqKyxQgACAC4AUXxB6
+			ZmlsZTovLy9Wb2x1bWVzL0JydW1lL0NlbGVkZXYlMjBDb2RlRmxv
+			dy9Db2RlRmxvdyUyMFNhbXBsZSUyMEFwcGxpY2F0aW9ucy9DaXJj
+			dWxhclRleHRNYWMvQ2lyY3VsYXJUZXh0TWFjL1ZpZXdDb250cm9s
+			bGVyLmjTNhMMU1g7pFRVOFeAFoAXgA2AGKRZWlpcgBmAGoAagBuA
+			D18QEmdlbmVyYXRpb25GaWxlRGF0ZV8QFGdlbmVyYXRpb25EaWRT
+			dWNjZWVkXxAXZ2VuZXJhdGlvbkx1YU1vZHVrZVBhdGgjQbumwL8A
+			AAAJXlZpZXdDb250cm9sbGVy0jAxZWZXTlNBcnJheaJlNNM2Ewxo
+			aTugoIAP0jAxbG1eQ0RGTE5hbWVkR3JvdXCjbm80XkNERkxOYW1l
+			ZEdyb3VwXUNERkxOYW1lZEl0ZW3TNhMMcXI7oKCAD18QD05TS2V5
+			ZWRBcmNoaXZlctF2d1Ryb290gAEACAARABoAIwAtADIANwBaAGAA
+			aQBwAHUAgACHAIkAiwCNAI8AkACVAKAAogCkAKYArwCxALMAtQC3
+			AMkAzgDRANMA1QDXAOAA4gDkAOYA6AD2AP0BBQERARMBFQEXAZEB
+			lgGhAaoBsAGzAbwBwwHLAc0BzwHRAdMB1QHeAd8B5AH6Af4CCwIQ
+			Ah0CIQIuAjwCRQJHAkkCSwJNAmACZwJpAmsCbQLqAvEC9gL4AvoC
+			/AL+AwMDBQMHAwkDCwMNAyIDOQNTA1wDXQNsA3EDeQN8A4MDhAOF
+			A4cDjAObA58DrgO8A8MDxAPFA8cD2QPcA+EAAAAAAAACAQAAAAAA
+			AAB4AAAAAAAAAAAAAAAAAAAD4w==
 			</data>
 			<key>CustomBindingsLibTargetOSVersion</key>
 			<string>10.10</string>
@@ -94,7 +93,7 @@
 		<key>LuaAppWindow edited source path</key>
 		<string>ViewController</string>
 		<key>LuaAppWindow frame</key>
-		<string>35 523 977 602 0 0 2560 1417 </string>
+		<string>790 599 1197 736 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -115,6 +114,8 @@
 		<dict>
 			<key>RootGroupId</key>
 			<string>CircularTextViewController</string>
+			<key>SourceItemChangeTime</key>
+			<real>465208379.361637</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>ListController Group IsExpanded</key>
@@ -139,9 +140,9 @@
 				<key>SrcEditor Selected Location</key>
 				<integer>1830</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1086</integer>
+				<integer>1505</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>1451</integer>
+				<integer>1341</integer>
 			</dict>
 		</dict>
 		<key>ViewController</key>
@@ -149,15 +150,15 @@
 			<key>Source File Auto Reload</key>
 			<true/>
 			<key>SourceItemChangeTime</key>
-			<real>464103449.45573401</real>
+			<real>465232063.11368102</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>685</integer>
+				<integer>582</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>771</integer>
+				<integer>1338</integer>
 				<key>SrcEditor Visible Location</key>
 				<integer>0</integer>
 			</dict>

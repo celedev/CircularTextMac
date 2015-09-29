@@ -21,22 +21,20 @@
 
 @implementation AppDelegate
 
-- (void) awakeFromNib
-{
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    
     // Create the Lua Context
     _luaContext = [[CIMLuaContext alloc] initWithName:@"CircularTextViewController"];
     _luaContextMonitor = [[CIMLuaContextMonitor alloc] initWithLuaContext:_luaContext connectionTimeout:5.0];
     
-    // Load the "ViewController" Lua module
-    [_luaContext loadLuaModuleNamed:@"ViewController"];
-}
-
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    // Load the "ViewController" Lua module asynchronously
+    [_luaContext loadLuaModuleNamed:@"ViewController" withCompletionBlock:nil];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
+    [_luaContextMonitor terminate];
+    [_luaContext terminateContext];
 }
 
 @end

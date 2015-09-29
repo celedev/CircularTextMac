@@ -1,0 +1,98 @@
+2015-09-29 12:25:42.849 Bindings generation for file:///Volumes/Brume/Celedev%20CodeFlow/CodeFlow%20Sample%20Applications/CircularTextMac/CircularTextMac/ViewController.h...
+2015-09-29 12:25:49.076 Bindings generation for file:///Volumes/Brume/Celedev%20CodeFlow/CodeFlow%20Sample%20Applications/CircularTextMac/CircularTextMac/AppDelegate.h...
+2015-09-29 12:25:49.671 BINDINGS GENERATION: source generation completed: 2 header files processed, 1 Lua modules generated.
+
+
+2015-09-29 12:25:50.896 BINDINGS GENERATION: Xcode project generated
+
+
+Build settings from command line:
+    OBJROOT = /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac
+    SDKROOT = macosx10.11
+    SYMROOT = /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac
+
+=== CLEAN TARGET CIMLuaBindingCircularTextMac OF PROJECT BindingLibs WITH CONFIGURATION Release ===
+
+Check dependencies
+
+Clean.Remove clean /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build
+    builtin-rm -rf /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build
+
+Clean.Remove clean /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/Release/libCIMLuaBindingCircularTextMac.a
+    builtin-rm -rf /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/Release/libCIMLuaBindingCircularTextMac.a
+
+=== CLEAN AGGREGATE TARGET AllLibs OF PROJECT BindingLibs WITH CONFIGURATION Release ===
+
+Check dependencies
+
+Clean.Remove clean /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/AllLibs.build
+    builtin-rm -rf /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/AllLibs.build
+
+** CLEAN SUCCEEDED **
+
+Build settings from command line:
+    OBJROOT = /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac
+    SDKROOT = macosx10.11
+    SYMROOT = /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac
+
+=== CLEAN TARGET CIMLuaBindingCircularTextMac OF PROJECT BindingLibs WITH CONFIGURATION Release ===
+
+Check dependencies
+
+Clean.Remove clean /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/Release/libCIMLuaBindingCircularTextMac.a
+    builtin-rm -rf /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/Release/libCIMLuaBindingCircularTextMac.a
+
+Clean.Remove clean /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build
+    builtin-rm -rf /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build
+
+=== CLEAN AGGREGATE TARGET AllLibs OF PROJECT BindingLibs WITH CONFIGURATION Release ===
+
+Check dependencies
+
+Clean.Remove clean /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/AllLibs.build
+    builtin-rm -rf /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/AllLibs.build
+
+** CLEAN SUCCEEDED **
+
+=== BUILD TARGET CIMLuaBindingCircularTextMac OF PROJECT BindingLibs WITH CONFIGURATION Release ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/Objects-normal/x86_64
+write-file /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/Objects-normal/x86_64/CIMLuaBindingCircularTextMac.LinkFileList
+write-file /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/CIMLuaBindingCircularTextMac-all-target-headers.hmap
+write-file /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/CIMLuaBindingCircularTextMac-own-target-headers.hmap
+write-file /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/CIMLuaBindingCircularTextMac-all-non-framework-target-headers.hmap
+write-file /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/CIMLuaBindingCircularTextMac.hmap
+write-file /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/CIMLuaBindingCircularTextMac-project-headers.hmap
+write-file /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/CIMLuaBindingCircularTextMac-generated-files.hmap
+
+CompileC /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/Objects-normal/x86_64/AppDelegate_LuaBindings_x86_64.o ObjcBindings/AppDelegate_LuaBindings_x86_64.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/B9A635CB-45C2-4570-A457-666956D341D0/ExternalLibs/CircularTextMac.luabindings
+    export LANG=en_US.US-ASCII
+    /Volumes/Macariki/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -gmodules -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/var/folders/bc/f9kwy1jx3y338brjtf_yjx840000gq/C/org.llvm.clang/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Volumes/Macariki/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -iquote /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/CIMLuaBindingCircularTextMac-generated-files.hmap -I/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/CIMLuaBindingCircularTextMac-own-target-headers.hmap -I/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/CIMLuaBindingCircularTextMac-all-target-headers.hmap -iquote /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/CIMLuaBindingCircularTextMac-project-headers.hmap -iquote/Users/jean-luc/Library/Application\ Support/com.celedev.CodeFlow/headers -iquote/Volumes/Brume/Celedev\ CodeFlow/CodeFlow\ Sample\ Applications/CircularTextMac/CircularTextMac -iquote/Users/jean-luc/Library/Application\ Support/com.celedev.CodeFlow/headers -I/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/Release/include -I/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/DerivedSources/x86_64 -I/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/DerivedSources -Wno-tautological-pointer-compare -F/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/Release -include /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/B9A635CB-45C2-4570-A457-666956D341D0/ExternalLibs/CircularTextMac.luabindings/Standard-prefix.pch -MMD -MT dependencies -MF /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/Objects-normal/x86_64/AppDelegate_LuaBindings_x86_64.d --serialize-diagnostics /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/Objects-normal/x86_64/AppDelegate_LuaBindings_x86_64.dia -c /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/B9A635CB-45C2-4570-A457-666956D341D0/ExternalLibs/CircularTextMac.luabindings/ObjcBindings/AppDelegate_LuaBindings_x86_64.m -o /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/Objects-normal/x86_64/AppDelegate_LuaBindings_x86_64.o
+
+Libtool /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/Release/libCIMLuaBindingCircularTextMac.a normal x86_64
+    cd /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/B9A635CB-45C2-4570-A457-666956D341D0/ExternalLibs/CircularTextMac.luabindings
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Volumes/Macariki/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Volumes/Macariki/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/Release -filelist /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/BindingLibs.build/Release/CIMLuaBindingCircularTextMac.build/Objects-normal/x86_64/CIMLuaBindingCircularTextMac.LinkFileList -framework Cocoa -o /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/Release/libCIMLuaBindingCircularTextMac.a
+warning: /Volumes/Macariki/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: warning for library: /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/Release/libCIMLuaBindingCircularTextMac.a the table of contents is empty (no object file members in the library define global symbols)
+
+PBXCp /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/Release/libCIMLuaBindingCircularTextMac.a BindingLibs/libCIMLuaBindingCircularTextMac.a
+    cd /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/B9A635CB-45C2-4570-A457-666956D341D0/ExternalLibs/CircularTextMac.luabindings
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Volumes/Macariki/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/Release/libCIMLuaBindingCircularTextMac.a /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/B9A635CB-45C2-4570-A457-666956D341D0/ExternalLibs/CircularTextMac.luabindings/BindingLibs
+/Volumes/Macariki/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/BindingLibsBuild/CircularTextMac/Release/libCIMLuaBindingCircularTextMac.a -o /Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/B9A635CB-45C2-4570-A457-666956D341D0/ExternalLibs/CircularTextMac.luabindings/BindingLibs/libCIMLuaBindingCircularTextMac.a
+
+=== BUILD AGGREGATE TARGET AllLibs OF PROJECT BindingLibs WITH CONFIGURATION Release ===
+
+Check dependencies
+
+** BUILD SUCCEEDED **
+
+2015-09-29 12:25:56.259 BINDINGS GENERATION: Xcode project compiled succesfully
+
+
+2015-09-29 12:25:56.261 BINDINGS GENERATION: PACKAGE GENERATION COMPLETED.
+
+

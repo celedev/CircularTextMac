@@ -4,19 +4,6 @@
 <dict>
 	<key>classes</key>
 	<dict>
-		<key>AppDelegate</key>
-		<dict>
-			<key>defined</key>
-			<string>AppDelegate</string>
-			<key>name</key>
-			<string>AppDelegate</string>
-			<key>protocols</key>
-			<array>
-				<string>NSApplicationDelegate</string>
-			</array>
-			<key>superclass</key>
-			<string>NSObject</string>
-		</dict>
 		<key>ViewController</key>
 		<dict>
 			<key>defined</key>
@@ -36,6 +23,6 @@
 	<key>structs</key>
 	<dict/>
 	<key>version</key>
-	<string>1</string>
+	<string>3</string>
 </dict>
 </plist>
